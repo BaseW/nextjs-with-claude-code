@@ -1,16 +1,30 @@
-# CLAUDE.md
+# Claude Code Project Guide
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This is a Next.js application with TypeScript, Tailwind CSS, and ESLint.
 
-## Project Overview
+## Development Commands
 
-This is a minimal Node.js sandbox project for testing Claude Code functionality. The project includes only the `@anthropic-ai/claude-code` dependency and serves as a clean environment for experimenting with Claude Code features.
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build the application for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-## Common Commands
+## Project Structure
 
-- `npm install` - Install dependencies
-- `npm test` - Currently returns an error as no tests are configured
+- `/src/app` - App Router pages and layouts
+- `/src/components` - Reusable React components
+- `/public` - Static assets
 
-## Development Notes
+## Tech Stack
 
-This is a sandbox environment with no established architecture or build processes. When adding new functionality, consider the project's purpose as a testing ground for Claude Code capabilities.
+- **Framework**: Next.js 15.3.3
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Linting**: ESLint with Next.js config
+- **Build Tool**: Turbopack (for development)
+
+## Getting Started
+
+1. Install dependencies: `npm install`
+2. Start development server: `npm run dev`
+3. Open http://localhost:3000 in your browser
